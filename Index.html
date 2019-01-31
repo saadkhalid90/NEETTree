@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <title>Women Employment in Punjab (PCSW Survey)</title>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <style>
+
+      body {
+        margin: 0 5% 5% 5%;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      text {
+        fill: #000;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        pointer-events: none;
+      }
+
+      .node {
+        cursor: pointer;
+        pointer-events: bounding-box;
+      }
+
+      .node circle {
+        stroke: none;
+        mix-blend-mode: multiply;
+      }
+
+      .node text {
+        /*font-size: 18px;*/
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      .link {
+        fill: none;
+        /*stroke: #1f78b4;*/
+        /*stroke-width: 20px;*/
+        stroke-linecap: round;
+        stroke-opacity: 0.2;
+        mix-blend-mode: multiply;
+      }
+
+      #categLegend .categs {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+      }
+
+      #categLegend .categ {
+        display: flex;
+        margin: 5px;
+        font-size: 14px;
+      }
+
+      #categLegend .categ p{
+        padding-left: 5px;
+      }
+
+      #categLegend .title{
+        font-weight: bold;
+      }
+
+
+   </style>
+
+</head>
+
+<body>
+    <h2>Young women (15-24 years) not in education employment or training (NEET)</h2>
+    <h4>Dataset from <a href="https://pcsw.punjab.gov.pk/">Punjab Commission on the status of women</a></h4>
+    <p>Click on the nodes to expand/ collapse the nodes in the tree</p>
+
+<div id="container">
+</div>
+<div id = "categLegend">
+<div class="title">Barrier/ Reason Types</div>
+<div class="categs"></div>
+</div>
+<script src="./NEETTree.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+label,description,type,category1,category2
+A,Family,work,Family,Husband/ family
+B,Domestic work/ caring responsibilities,work,Domestic work/ caring responsibilities,Domestic responsibility
+C,Male Colleagues,work,Male Colleagues,Other reason
+D,Lack of accommodation,work,Lack of accommodation,Other reason
+E,Lack of qualification/ experience,work,Lack of qualification/ experience,Lack of opportunity
+F,Lack of appropriate job opportunities,work,Lack of appropriate job opportunities,Lack of opportunity
+G,Inadequate promotion opportunities,work,Inadequate promotion opportunities,Lack of opportunity
+H,Lack of tranining opportunities,work,Lack of tranining opportunities,Lack of opportunity
+I,Transport,work,Transport,Distance/ transport
+J,Employers' lack of flexibility,work,Employers' lack of flexibility,Other reason
+X,Other,work,Other,Other reason
+A,Education is costly,education,Lack of financial means,Lack of financial means
+B,Distance,education,Distance/ Lack of transport,Distance/ transport
+C,Substandard school,education,Other reason,Other reason
+D,Helping in domestic work,education,Domestic responsibility,Domestic responsibility
+E,Parents/ family do not permit,education,Husband's/ family's consent,Husband/ family
+F,Husband/ inlaws do not permit,education,Husband's/ family's consent,Husband/ family
+G,Nonavailability of female teachers,education,Other reason,Other reason
+H,Ill/ incapacitated,education,Other reason,Other reason
+I,Due to disability,education,Other reason,Other reason
+J,Not willing,education,Other reason,Other reason
+K,Lack of documents,education,Other reason,Other reason
+L,No transport,education,Distance/ Lack of transport,Distance/ transport
+M,Do not have funds,education,Lack of financial means,Lack of financial means
+N,Concern for safety,education,Concern for safety,Violence/ safety concerns
+O,Not useful,education,Other reason,Other reason
+P,Education completed,education,Other reason,Other reason
+Q,Marriage,education,Marriage,Husband/ family
+R,Employment/ work,education,Marriage,Other reason
+X,Other ,education,Other reason,Other reason
+A,Lack of transport,training,Lack of transport,Distance/ transport
+B,Inadequate financial means,training,Inadequate financial means,Lack of financial means
+C,Husband's consent,training,Husband's/ family's consent,Husband/ family
+D,Pregnancy or sexual health problems,training,Pregnancy or sexual health problems,Other reason
+E,GBV or threats to safety,training,GBV or threats to safety,Violence/ safety concerns
+F,Burden of care,training,Burden of care,Domestic responsibility
+G,Other family members don't allow,training,Husband's/ family's consent,Husband/ family
+H,Domestic responsibility,training,Domestic responsibility,Domestic responsibility
+I,Training institute too far,training,Training institute too far,Distance/ transport
+J,Training is not useful,training,Training is not useful,Other reason
+K,Did not need training,training,Did not need training,Other reason
+L,Do not have time,training,Do not have time,Other reason
+Z,Don't know,training,Don't know,Other reason
